@@ -1,0 +1,111 @@
+*{ 
+    margin: 0 auto; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+body{ 
+    font-family: 'Nunito Sans', sans-serif; 
+     background-color: #ffffff; 
+     text-align: center; 
+     display: block; 
+     margin: auto;
+}
+
+header{
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    padding: 20px; /*Define um preenchimento interno de 20 pixels para o elemento header.*/
+    font-size: 20px; /*Define o tamanho da fonte do texto no elemento header.*/
+    height: 10em; /*Define a altura do elemento header como 10 vezes o tamanho da letra "em".*/
+}
+
+section.corpo{  
+    font-size: 20px; 
+    text-align: justify;
+    width: 1300px; 
+    margin: auto; 
+    padding: 20px; 
+}
+
+.menu-h{
+    background-color: rgba(189, 49, 7,0.8);
+    padding: 15px;
+    
+}
+.menu-h ul{
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+}
+.menu-h ul li{
+    display: inline;
+    
+}
+
+.menu-h ul li a{
+    color:   rgb(255, 255, 255);
+    padding: 25px;
+    display: inline-block;
+}
+.menu-h ul li a:hover{
+    background-color: rgb(199, 70, 31);
+    border-radius: 8px;
+    /* BORDER RADIUS é para arredondar os cantos de um elemento */
+    transition: 0.2s;
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+article.articleformulario{
+    padding: 20px;
+}
+
+section.sectionformulario{
+    padding: 5%;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.botao:active{
+    /* active é quando o botão */
+    background-color: rgb(175, 175, 175);
+}
+
+footer{ 
+        display: block; 
+        color: #000; /*Define a cor do texto dentro do elemento footer.*/
+        padding: 10px;
+        text-align: center;
+        position: relative; /*Fixa o elemento footer na parte inferior da janela do navegador.*/
+        bottom: 0;  /* Bottom 0 é para fixar o elemento no rodapé */
+        width: 100%; /* Largura desejada do footer*/
+        align-items: center; /*Centraliza verticalmente os itens dentro do elemento footer.*/
+}
