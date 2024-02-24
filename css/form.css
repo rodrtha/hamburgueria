@@ -1,0 +1,241 @@
+*{ 
+    margin: 0 auto; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+body{ 
+    font-family: 'Nunito Sans', sans-serif; 
+     background-color: #f0f0f0; 
+     text-align: center; 
+     display: block; 
+     margin: auto;
+}
+
+section.sectionformulario{
+    padding: 5%;
+}
+.menu-h{
+    background-color: rgb(189, 51, 9);
+    padding: 15px;
+    
+}
+.menu-h ul{
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+
+}
+.menu-h ul li{
+    display: inline;
+    
+}
+
+.menu-h ul li a{
+    color:   rgb(255, 255, 255);
+    padding: 25px;
+    display: inline-block;
+}
+.menu-h ul li a:hover{
+    background-color: rgb(199, 70, 31);
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+  .box-formulario {
+  
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #f0f0f0;
+      padding:60px 0;
+  
+  }
+  
+  .formulario {
+  
+      width: 700px;
+      background: #f0f0f0;
+      text-align: center;
+  
+  }
+
+  .formulario span {
+    position: relative;
+    display: flex;
+    margin: 40px 20px;
+  
+  }
+  
+  /*input Animado*/
+  .input-swing-down {
+  
+    display: inline-block;
+    width: 100%;
+    height: 41px;
+    padding: 10px 0 10px 70px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #575F60;
+    background: #dbdbdb;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    transition: all .3s ease-in-out;
+  
+  }
+  .input-swing-down:focus,
+  .input-swing-down:active {
+  
+    color: #000000;
+    padding: 10px 0 10px 30px;  
+    background: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  
+  }
+  
+  /*TextArea*/
+  .textarea-swing-down {
+  
+    display: inline-block;
+    width: 100%;
+    height: 78px;
+    padding: 10px 0 10px 70px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    resize: none;
+    color: #575F60;
+    background: #dbdbdb;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    transition: all .3s ease-in-out;
+  
+  }
+  
+  .textarea-swing-down::-webkit-input-placeholder {
+  
+    color: #575f60;
+    font-weight: 300;
+  
+  }
+  .textarea-swing-down:focus,
+  .textarea-swing-down:active {
+  
+    color: #000000;
+    padding: 10px 0 10px 30px;  
+    background: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  
+  }
+  
+  /*Botão*/
+  .box-btn { 
+  
+   width: 100%;
+   padding: 0 10px;
+   float: left;
+  
+  }
+  
+  
+  .btn-3d {
+  
+    top: 0;
+    left: 0;
+    transition: all 0.15s linear 0s;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    background-color: #8F9B9C;
+    color: #090B0B;
+    letter-spacing: 2px;
+    box-shadow: -6px 6px 0 #000e3b;
+    text-decoration: none;
+  
+  }
+  
+  .btn-3d:hover {
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 #000e3b;
+  }
+  .btn-3d:hover::after {
+    top: 1px;
+    left: -2px;
+    width: 4px;
+    height: 4px;
+  }
+  .btn-3d:hover::before {
+    bottom: -2px;
+    right: 1px;
+    width: 4px;
+    height: 4px;
+  }
+  .btn-3d::after {
+    transition: all 0.15s linear 0s;
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #404040;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+ 
+  
+  .btn-3d {
+    position: relative;
+  }
+  
+  button:active.btn-3d {
+  
+    top: 6px;
+    left: -6px;
+    box-shadow: none;
+  
+  }
+  
+  button:active.btn-3d:before {
+    bottom: 1px;
+    right: 1px;
+  }
+  button:active.btn-3d:after {
+    top: 1px;
+    left: 1px;
+  }
+  button.btn-3d i { 
+  
+    display: block;
+    background:#cccaca;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 15px;
+    z-index: 2;
+    position: inherit;
+    font-style: normal; 
+    
+  }
+
+footer{ 
+        display: block; 
+        color: #000;
+        padding: 10px;
+        text-align: center;
+        position: relative; 
+        bottom: 0;  
+        width: 100%; 
+        align-items: center;
+}

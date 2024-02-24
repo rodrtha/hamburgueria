@@ -6,7 +6,7 @@
 
 body{ 
     font-family: 'Nunito Sans', sans-serif; 
-     background-color: #ffffff; 
+     background-color: #f0f0f0; 
      text-align: center; 
      display: block; 
      margin: auto;
@@ -28,9 +28,20 @@ section.corpo{
     margin: auto; 
     padding: 20px; 
 }
+section.historia{
+    font-size: 18px; 
+    text-align: justify;
+    width: 1000px; 
+    margin: auto; 
+    padding: 10px; 
+}
 
+img{
+    height: 100%;
+    width: 100%;
+}
 .menu-h{
-    background-color: rgba(189, 49, 7,0.8);
+    background-color: rgb(189, 51, 9);
     padding: 15px;
     
 }
@@ -38,6 +49,8 @@ section.corpo{
     max-width: 100%;
     list-style: none;
     padding: 0;
+    text-decoration: none;
+
 }
 .menu-h ul li{
     display: inline;
@@ -56,56 +69,13 @@ section.corpo{
     transition: 0.2s;
 }
 
-
-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-    width: 40%;
-}
-article.articleformulario{
-    padding: 20px;
-}
-
-section.sectionformulario{
-    padding: 5%;
-
-}
-
-label {
-    display: block;
-    margin-bottom: 30px;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-}
-
-.button {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-}
-.botao:active{
-    /* active é quando o botão */
-    background-color: rgb(175, 175, 175);
-}
-
 footer{ 
         display: block; 
-        color: #000; /*Define a cor do texto dentro do elemento footer.*/
+        color: #000;
         padding: 10px;
         text-align: center;
-        position: relative; /*Fixa o elemento footer na parte inferior da janela do navegador.*/
-        bottom: 0;  /* Bottom 0 é para fixar o elemento no rodapé */
-        width: 100%; /* Largura desejada do footer*/
-        align-items: center; /*Centraliza verticalmente os itens dentro do elemento footer.*/
+        position: relative; 
+        bottom: 0;  
+        width: 100%; 
+        align-items: center;
 }
