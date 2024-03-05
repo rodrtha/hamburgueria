@@ -1,0 +1,81 @@
+*{ 
+    margin: 0 auto; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+body{ 
+    font-family: 'Nunito Sans', sans-serif; 
+     background-color: #f0f0f0; 
+     text-align: center; 
+     display: block; 
+     margin: auto;
+}
+
+header{
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    padding: 20px; /*Define um preenchimento interno de 20 pixels para o elemento header.*/
+    font-size: 20px; /*Define o tamanho da fonte do texto no elemento header.*/
+    height: 10em; /*Define a altura do elemento header como 10 vezes o tamanho da letra "em".*/
+}
+
+section.corpo{  
+    font-size: 20px; 
+    text-align: justify;
+    width: 1300px; 
+    margin: auto; 
+    padding: 20px; 
+}
+section.historia{
+    font-size: 18px; 
+    text-align: justify;
+    width: 1000px; 
+    margin: auto; 
+    padding: 10px; 
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.menu-h{
+    background-color: rgb(189, 51, 9);
+    padding: 15px;
+    
+}
+.menu-h ul{
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+
+}
+.menu-h ul li{
+    display: inline;
+    
+}
+
+.menu-h ul li a{
+    color:   rgb(255, 255, 255);
+    padding: 25px;
+    display: inline-block;
+}
+.menu-h ul li a:hover{
+    background-color: rgb(199, 70, 31);
+    border-radius: 8px;
+    /* BORDER RADIUS é para arredondar os cantos de um elemento */
+    transition: 0.2s;
+}
+
+footer{ 
+        display: block; 
+        color: #000;
+        padding: 10px;
+        text-align: center;
+        position: relative; 
+        bottom: 0;  
+        width: 100%; 
+        align-items: center;
+}
